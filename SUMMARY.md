@@ -7,8 +7,17 @@
 * [Quickstart](getting-started/quickstart.md)
 * [Publish your docs](getting-started/publish-your-docs.md)
 * [Authentication](getting-started/authentication.md)
-* [API Reference](getting-started/api-reference.md)
 * [Example Tools](getting-started/example-tools.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: vcongpt-api
+  ```
 
 ## Conserver
 
